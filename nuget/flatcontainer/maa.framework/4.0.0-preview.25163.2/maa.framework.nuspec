@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Maa.Framework</id>
+    <version>4.0.0-preview.25163.2+v2.3.1-12-gd302f68</version>
+    <title>Maa Framework Metapackage</title>
+    <authors>MAA Team</authors>
+    <license type="expression">LGPL-3.0-only</license>
+    <licenseUrl>https://licenses.nuget.org/LGPL-3.0-only</licenseUrl>
+    <icon>maa-logo_128x128.png</icon>
+    <readme>README.md</readme>
+    <description>Maa.Framework is a metapackage with references to Maa.Framework.Binding.Native, Maa.AgentBinary and Maa.Framework.Runtimes.</description>
+    <releaseNotes>Release notes are at https://github.com/MaaXYZ/MaaFramework.Binding.CSharp/releases.</releaseNotes>
+    <copyright>Copyright © 2021-2025 MAA Team and Contributers. All rights reserved.</copyright>
+    <tags>MAA c-sharp cross-platform dotnet wrapper</tags>
+    <repository type="git" url="https://github.com/MaaXYZ/MaaFramework.Binding.CSharp" branch="update/MaaFramework" commit="d302f681c97c70bab6285100362bee5b5dca76c4" />
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Maa.Framework.Native" version="4.0.0-preview.25163.2" exclude="Build,Analyzers" />
+        <dependency id="Maa.Framework.Runtimes" version="4.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="Maa.Framework.Native" version="4.0.0-preview.25163.2" exclude="Build,Analyzers" />
+        <dependency id="Maa.Framework.Runtimes" version="4.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
