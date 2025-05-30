@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/astariul/github-hosted-pypi.git
+	branch = main
+	commit = e29e6f7ea7bcc35209362f90b37619abd6b49fe0
+	parent = ff87df86dab24a0b945a53a743f7c412af62e858
+	method = merge
+	cmdver = 0.4.9
