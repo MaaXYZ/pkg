@@ -48,7 +48,7 @@ function put_readme(version, markupContent, scroll_to_div=false){
 
 function warn_unsafe() {
   document.getElementById('installdanger').hidden = false;
-  document.getElementById('installcmd').hidden = true;
+  // document.getElementById('installcmd').hidden = true;
 }
 
 function redirectToIndex() {
