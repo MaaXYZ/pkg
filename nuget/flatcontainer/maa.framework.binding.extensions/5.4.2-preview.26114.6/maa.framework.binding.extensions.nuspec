@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Maa.Framework.Binding.Extensions</id>
+    <version>5.4.2-preview.26114.6+v5.4.1-2-g8e656cc</version>
+    <title>MaaFramework Binding Extensions</title>
+    <authors>MAA Team</authors>
+    <license type="expression">LGPL-3.0-only</license>
+    <licenseUrl>https://licenses.nuget.org/LGPL-3.0-only</licenseUrl>
+    <icon>maa-logo_128x128.png</icon>
+    <description>Extensions built around Maa.Framework.Binding offering useful but optional features.</description>
+    <releaseNotes>Release notes are at https://github.com/MaaXYZ/MaaFramework.Binding.CSharp/releases.</releaseNotes>
+    <copyright>Copyright © 2021-2026 MAA Team and Contributers. All rights reserved.</copyright>
+    <tags>MAA c-sharp cross-platform dotnet extensions</tags>
+    <repository type="git" url="https://github.com/MaaXYZ/MaaFramework.Binding.CSharp" branch="main" commit="8e656cc239fb11c5bef1efc14283ce8bd8c24b9b" />
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Maa.Framework.Binding" version="5.4.2-preview.26114.6" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="Maa.Framework.Binding" version="5.4.2-preview.26114.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
